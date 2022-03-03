@@ -1,0 +1,24 @@
+table,th,td{
+    border: solid 1px;
+    border-collapse: collapse;
+    background-color: white;
+    background-color: rgb(201, 255, 176);
+}
+img{
+    width: 200px;
+}
+body{
+    background-color: rgb(201, 255, 176);
+}
+main {
+        width: 1160px;
+        margin: 25px auto;
+        background-color: rgb(194, 194, 194);
+        padding: 20px;
+        border: 2px solid rgb(251, 255, 0);
+        color: black;
+      }
+header{
+    border: 2px solid rgb(251, 255, 0);
+    background-color: rgb(194, 194, 194);
+}

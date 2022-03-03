@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="cs">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Připrava na praktickou proverku</title>
+</head>
+
+<body>
+    <header>
+        <h1>Příprava na praktickou prověrku</h1>
+        <ul>
+           <li><a href="#s1">Textové úpravy</a></li>
+        <li><a href="#s2">Tabulka</a></li> 
+        </ul>
+    </header>
+    <main>
+        <h2 id="s1">Textové úpravy</h2>
+        <h3>Adresy používané na internetu</h3>
+        <p>Správně vytvořená adresa stránky by měla obsahovat klíčové slovo, na které jste se v obsahu stránky zaměřili.
+            Opět připomínám minulý článek o tvorbě a formátování nadpisů a mezinadpisů <strong>stránky</strong>. Adresa
+            by měla být pokud možno stejná, jako je název stránky a její nadpis. Ovšem pozor, vyžaduje dodržování
+            určitých pravidel.
+            V prohlížeči si načtěte administraci svého webu, klepněte na záložku Stránky a případně se přepněte do
+            některé z vytvořených kategorií. Přidejte novou stránku (odkaz <strong>Přidat stránku</strong>) nebo
+            klepněte na symbol tužky a vyvolejte formulář pro úpravu již existující stránky webu.</p>
+        <h3>Seznam významných termínů a zkratek</h3>
+        <P><abbr title="Hypertext Markup Language">HTML</abbr><br>
+            Je v informatice název značkovacího jazyka používaného pro tvorbu webových stránek.<br>
+            <abbr title="HyperText Transfer Protocol">HTTP</abbr><br>
+            je internetový protokol určený pro komunikaci s WWW servery. Slouží pro přenos hypertextových dokumentů ve formátu HTML.<br>
+            Validátor <br>
+            Validátor je počítačový program používaný ke kontrole platnosti nebo syntaktické správnosti fragmentu kódu nebo dokumentu.<br>
+            Server <br>
+            Server je v informatice obecné označení pro počítač, který poskytuje nějaké služby, nebo počítačový program, který tyto služby realizuje.
+        </P>
+        <h2 id="s2">Tabulka</h2>
+        <table>
+            <tr>
+                <th rowspan="2">Nečíslovaný seznam</th>
+                <th colspan="2">Prvky stránky</th>
+                <th rowspan="2">Obrázek</th>
+            </tr>
+            <tr>
+                <th>Značky</th>
+                <th>Entity</th>
+            </tr>
+            <tr>
+                <td rowspan="2">
+                    <ul>
+                    <li>IP adresa</li>
+                    <li>Jmenná adresa</li>
+                    <li>URL</li>
+                    </ul>
+                    
+                </td>
+                <td> H₂O</td>
+                <td>&</td>
+                <td rowspan="2"><img src="img/kitten.jpg" alt="obrazek"></td>
+            </tr>
+            <tr>
+                <td>c = a² + b²</td>
+                <td>&copy;</td>
+            </tr>
+            <tr>
+                <td>odkaz</td>
+                <td colspan="3"> <a href="https://www.w3.org">www.w3c.org</a></td>
+            </tr>
+        </table>
+    </main>
+    <footer>
+        <hr>
+        <p>&copy; <mark>Jeroným baron</mark>, <strong>IT1</strong>, <abbr title="Střední škola průmyslová a umělecká">SŠPU</abbr>Opava</p>
+    </footer>
+</body>
+
+</html>
