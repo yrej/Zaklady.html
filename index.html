@@ -28,18 +28,20 @@
             některé z vytvořených kategorií. Přidejte novou stránku (odkaz <strong>Přidat stránku</strong>) nebo
             klepněte na symbol tužky a vyvolejte formulář pro úpravu již existující stránky webu.</p>
         <h3>Seznam významných termínů a zkratek</h3>
-        <P><abbr title="Hypertext Markup Language">HTML</abbr><br>
-            Je v informatice název značkovacího jazyka používaného pro tvorbu webových stránek.<br>
-            <abbr title="HyperText Transfer Protocol">HTTP</abbr><br>
-            je internetový protokol určený pro komunikaci s WWW servery. Slouží pro přenos hypertextových dokumentů ve formátu HTML.<br>
-            Validátor <br>
-            Validátor je počítačový program používaný ke kontrole platnosti nebo syntaktické správnosti fragmentu kódu nebo dokumentu.<br>
-            Server <br>
-            Server je v informatice obecné označení pro počítač, který poskytuje nějaké služby, nebo počítačový program, který tyto služby realizuje.
-        </P>
+        <dl>
+            <dt><abbr title="Hypertext Markup Language">HTML</abbr></dt>
+            <dd>Je v informatice název značkovacího jazyka používaného pro tvorbu webových stránek.</dd>
+            <dt><abbr title="HyperText Transfer Protocol">HTTP</abbr></dt>
+            <dd>je internetový protokol určený pro komunikaci s WWW servery. Slouží pro přenos hypertextových dokumentů ve formátu HTML.</dd>
+            <dt> Validátor </dt>
+            <dd> Validátor je počítačový program používaný ke kontrole platnosti nebo syntaktické správnosti fragmentu kódu nebo dokumentu.</dd>
+            <dt>Server </dt>
+            <dd>Server je v informatice obecné označení pro počítač, který poskytuje nějaké služby, nebo počítačový program, který tyto služby realizuje.</dd>
+        </dl>
         <h2 id="s2">Tabulka</h2>
         <table>
-            <tr>
+            <thead>
+                <tr>
                 <th rowspan="2">Nečíslovaný seznam</th>
                 <th colspan="2">Prvky stránky</th>
                 <th rowspan="2">Obrázek</th>
@@ -48,7 +50,9 @@
                 <th>Značky</th>
                 <th>Entity</th>
             </tr>
-            <tr>
+            </thead>
+            <tbody>
+                <tr>
                 <td rowspan="2">
                     <ul>
                     <li>IP adresa</li>
@@ -65,10 +69,13 @@
                 <td>c = a² + b²</td>
                 <td>&copy;</td>
             </tr>
-            <tr>
+            </tbody>
+            <tfoot>
+                <tr>
                 <td>odkaz</td>
                 <td colspan="3"> <a href="https://www.w3.org">www.w3c.org</a></td>
             </tr>
+            </tfoot>
         </table>
     </main>
     <footer>
